@@ -6,7 +6,7 @@ public abstract class Figure(string type)
 
     public abstract double Area { get; }
 
-    public override string ToString() => $"{Type} area: {Area}";
+    public override string ToString() => Type;
 
 }
 

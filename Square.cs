@@ -1,6 +1,6 @@
 
 
-public class Square(double width) : Figure("sqiare")
+public class Square(double width) : Figure("square")
 {
     public override double Area => width * width;
 }
